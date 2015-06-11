@@ -1,0 +1,9 @@
+# Bolt specific stuff. Don't put config files, databases or 'vendor' in Git.
+app/cache/*
+app/config/config.yml
+extensions/vendor
+app/database/*
+thumbs/
+vendor/
+.DS_Store
+composer.lock
